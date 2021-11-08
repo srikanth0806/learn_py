@@ -1,0 +1,5 @@
+fp=open("test2.txt", "r+")
+fp.write("he is so good!!")
+fp.seek(0)
+print(fp.read())
+fp.close()

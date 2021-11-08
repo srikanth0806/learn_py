@@ -1,0 +1,5 @@
+fp=open("test2.txt","w+")
+fp.write("hai srikanth!!")
+fp.seek(0)
+print(fp.read())
+fp.close()
