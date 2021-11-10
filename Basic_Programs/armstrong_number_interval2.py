@@ -1,5 +1,5 @@
 """
-   19.Python Program to Check Armstrong Number.
+   19.Python Program to Find Armstrong Number in an Interval.
 
    NOTE:
       the sum of nth power of each digit is equal to
@@ -17,20 +17,25 @@
        iii.add nth power of each number
        iv.finally check out put == given number.
 """
-# for i in range
+
+
 def armstrong_number(num):
-    x = str(num)
-    l=len(x)
-    y = int(x)
-    temp = y
-    sum=0
-    while y > 0:
-        r = y % 10
-        sum= sum + r **l
-        y = y // 10
-        print(y, "*********")
-    if temp == sum:
-        print("the given number is armstrong number.")
-    else:
-        print("the given number in not armstrong number.")
-armstrong_number(153)
+        x = str(num)
+        l = len(x)
+        y = int(x)
+        temp = y
+        sum = 0
+        while y > 0:
+            r = y % 10
+            sum = sum + r **l
+            y = y // 10
+
+        if temp == sum:
+            return True
+        else:
+            return False
+
+
+for i in range(1,100000):
+    if armstrong_number(i):   #here,the function is called
+        print(i, end=" ")
