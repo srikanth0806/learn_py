@@ -1,4 +1,3 @@
-
 #7. Define a function is_palindrome() that recognizes palindromes
 """NOTE:
      LOGIC:
