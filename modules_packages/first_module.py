@@ -13,7 +13,9 @@ def test_even(x):
 def myfunc():
     PI = 99
     print("a value is =", PI)
+
 if __name__ == "__main__":
+
     print(PI)
 myfunc()
 print(PI)
