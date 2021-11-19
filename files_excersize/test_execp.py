@@ -1,5 +1,5 @@
 try:
-    fp = open("test.txt", "w")
+    fp = open("test6.txt", "w")
     fp.write("Hello")
     fp.read()
 except Exception as e:
