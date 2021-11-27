@@ -1,8 +1,9 @@
+"""
+   write a programme to use closed() method in a file.
+"""
 
 fp = open("test6.txt", "w")
 fp.write("Hello")
-fp.read()
-
 
 print(fp.closed)
 fp.close()

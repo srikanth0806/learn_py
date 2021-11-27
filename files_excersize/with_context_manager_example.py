@@ -1,4 +1,4 @@
-with open("context.txt", "w") as fp:
-    fp.write("good morning mmaster")
-    fp.write("hello sir")
-print(fp.closed)
+with open("context.txt", "w") as f:
+    f.write("good morning mmaster")
+    f.write("hello sir")
+print(f.closed)

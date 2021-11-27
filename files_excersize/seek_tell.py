@@ -1,6 +1,6 @@
-a=open("test2.txt","r")
-a.seek(30)
-print(a.tell())
-print(a.readlines())
-a.close()
+var = open("test2.txt", "r")
+var.seek(30)
+print(var.tell())
+print(var.readlines())
+var.close()
 

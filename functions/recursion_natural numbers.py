@@ -18,7 +18,6 @@ def total(n):
 
     if n <= 0:
         return "given number is not natural."
-
     elif n == 1:
         return n
     else:

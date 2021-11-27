@@ -4,5 +4,5 @@ def max_items(a):
     for i in a:
         if i > max:
             max=i
-    return i
-print(max_items([56,87,12]))
+    return max
+print(max_items([56,87,12,130,34]))
