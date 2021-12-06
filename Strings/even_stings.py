@@ -23,4 +23,5 @@ print("the strings are:", even("srikanth"))
 #     for n in range(0, x-1, 2):
 #         print(s[n], end="")
 
-print(evens("srikanth"))
+
+#print(evens("srikanth"))
