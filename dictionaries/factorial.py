@@ -37,5 +37,7 @@ print("Factorial of", num, "is",
 #
 # factorial_num(6)
 # # print("factorial of number : ", factorial_num(6))
+#this is factorial programm
+
 
 
