@@ -22,7 +22,7 @@ print(y.__dir__())
 
 
 
-from cls_student import Student
+from learn_classes.methods.static_method.cls_student import Student
 
 x = Student("naga", 34, "mpc")
 
@@ -33,7 +33,7 @@ x.course = "bipc"
 x.age = 25
 x.get_vals()
 
-from cls_robot import Robot, test
+from learn_classes.variables.class_variables.cls_robot import test
 
 test()
 

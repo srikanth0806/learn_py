@@ -17,8 +17,6 @@
 # print(c1.company)
 
 
-
-from cls_student1 import Cars
 x.get_vals()
 
 
