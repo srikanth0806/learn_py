@@ -36,10 +36,10 @@ def prime_number(num):
 
         else:
              return "the given number is  prime"
-print(prime_number(25))
-print(prime_number(19))
+#print(prime_number(25))
+#print(prime_number(19))
 # print(prime_number(0))
 # print(prime_number(1))
 # print(prime_number(-1))
 # print(prime_number(2))
-print(prime_number(9))
+print(prime_number(67))
