@@ -1,0 +1,8 @@
+'abs', 'all', 'any',
+ 'bin', ' 'chr', ''dict', 'dir', 'divmod', 'enumerate',
+ 'eval', 'exec', 'exit', 'filter', 'float', 'format',
+  'frozenset', ''globals', ' 'help', 'hex', 'id', 'input', 'int',
+  'isinstance',  'len', 'license', 'list', 'locals', 'map', 'max',
+  'min', 'next', ' 'oct', 'open', 'ord', 'pow', 'print', 'property',
+   'quit', 'range', 'round', 'set',  'sorted', ' 'str', 'sum', '
+ 'tuple', 'type', 'zip'

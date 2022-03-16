@@ -1,0 +1,12 @@
+naga@gmail.com
+naga@wipro.com
+naga@capgemini.com
+naga@hcl.com
+
+t@hcl.com
+t1@hcl.com
+
+[a-z][a-zA-Z0-9.]{2,}@[a-zA-Z0-9]{3,}.com
+
+t@.com
+t1@c.com
