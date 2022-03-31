@@ -1,0 +1,58 @@
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> class Robot:
+	A = 10
+	def __init__(self, s):
+		self.s = s
+
+		
+>>> 
+>>> 
+>>> Robot
+<class '__main__.Robot'>
+>>> Robot.A
+10
+>>> x = Robot()
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    x = Robot()
+TypeError: __init__() missing 1 required positional argument: 's'
+>>> x = Robot(25)
+>>> 
+>>> x
+<__main__.Robot object at 0x00000234680FD730>
+>>> x.A
+10
+>>> y = Robot()
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    y = Robot()
+TypeError: __init__() missing 1 required positional argument: 's'
+>>> 
+>>> y = Robot(199)
+>>> 
+>>> y.A
+10
+>>> 
+>>> Robot.A = 12
+>>> x.A
+12
+>>> y.A
+12
+>>> 
+>>> x.A = 200
+>>> 
+>>> Robot.A
+12
+>>> y.A
+12
+>>> x.A
+200
+>>> Robot.A = 15
+>>> Robot.A
+15
+>>> y.A
+15
+>>> x.A
+200
+>>> 
