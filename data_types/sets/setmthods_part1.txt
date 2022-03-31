@@ -1,0 +1,92 @@
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> days={"MONDAY","TUESDAY","WENSDAY"}
+>>> days
+{'WENSDAY', 'MONDAY', 'TUESDAY'}
+>>> days.add("THURSDAY")
+>>> days
+{'WENSDAY', 'MONDAY', 'TUESDAY', 'THURSDAY'}
+>>> x={"FRIDAY","SATURDAY","SUNDAY"}
+>>> days.update(x)
+>>> days
+{'SUNDAY', 'FRIDAY', 'SATURDAY', 'MONDAY', 'WENSDAY', 'TUESDAY', 'THURSDAY'}
+>>> li=[1,2]
+>>> days.update(li)
+>>> days
+{1, 2, 'MONDAY', 'WENSDAY', 'THURSDAY', 'SUNDAY', 'FRIDAY', 'SATURDAY', 'TUESDAY'}
+>>> s="srikanth"
+>>> days.update(s)
+>>> days
+{1, 2, 'MONDAY', 'a', 't', 'r', 'WENSDAY', 'THURSDAY', 'SUNDAY', 'FRIDAY', 'n', 'i', 'k', 's', 'SATURDAY', 'h', 'TUESDAY'}
+>>> days.remove("i")
+>>> days
+{1, 2, 'MONDAY', 'a', 't', 'r', 'WENSDAY', 'THURSDAY', 'SUNDAY', 'FRIDAY', 'n', 'k', 's', 'SATURDAY', 'h', 'TUESDAY'}
+>>> days.pop()
+1
+>>> days
+{2, 'MONDAY', 'a', 't', 'r', 'WENSDAY', 'THURSDAY', 'SUNDAY', 'FRIDAY', 'n', 'k', 's', 'SATURDAY', 'h', 'TUESDAY'}
+>>> days.pop()
+2
+>>> 
+>>> days
+{'MONDAY', 'a', 't', 'r', 'WENSDAY', 'THURSDAY', 'SUNDAY', 'FRIDAY', 'n', 'k', 's', 'SATURDAY', 'h', 'TUESDAY'}
+>>> days.pop()
+'MONDAY'
+>>> 
+>>> days.pop()
+'a'
+>>> days
+{'t', 'r', 'WENSDAY', 'THURSDAY', 'SUNDAY', 'FRIDAY', 'n', 'k', 's', 'SATURDAY', 'h', 'TUESDAY'}
+>>> days.pop()
+'t'
+>>> days
+{'r', 'WENSDAY', 'THURSDAY', 'SUNDAY', 'FRIDAY', 'n', 'k', 's', 'SATURDAY', 'h', 'TUESDAY'}
+>>> days1={}
+
+>>> days1.copy(days)
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    days1.copy(days)
+TypeError: dict.copy() takes no arguments (1 given)
+>>> days1={1,2,3,4}
+>>> days.copy(days1)
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    days.copy(days1)
+TypeError: set.copy() takes no arguments (1 given)
+>>> z=days.copy()
+>>> z
+{'SUNDAY', 'FRIDAY', 'n', 'TUESDAY', 'r', 'k', 's', 'WENSDAY', 'h', 'SATURDAY', 'THURSDAY'}
+>>> z.clear()
+>>> z
+set()
+>>> days.discard("h")
+>>> days
+{'r', 'WENSDAY', 'THURSDAY', 'SUNDAY', 'FRIDAY', 'n', 'k', 's', 'SATURDAY', 'TUESDAY'}
+>>> days.remove("k")
+>>> days
+{'r', 'WENSDAY', 'THURSDAY', 'SUNDAY', 'FRIDAY', 'n', 's', 'SATURDAY', 'TUESDAY'}
+>>> days[1]
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    days[1]
+TypeError: 'set' object is not subscriptable
+>>> days.remove("n","s")
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    days.remove("n","s")
+TypeError: set.remove() takes exactly one argument (2 given)
+>>> days
+{'r', 'WENSDAY', 'THURSDAY', 'SUNDAY', 'FRIDAY', 'n', 's', 'SATURDAY', 'TUESDAY'}
+>>> days.clear()
+>>> days
+set()
+>>> days={"MON","TUE","WEN"}
+>>> days1={"THURS","FRI","SAT","TUE","MON"}
+>>> alldays=days|days1
+>>> alldays
+{'MON', 'SAT', 'THURS', 'WEN', 'FRI', 'TUE'}
+>>> alldays=days&days1
+>>> alldays
+{'MON', 'TUE'}
+>>> 

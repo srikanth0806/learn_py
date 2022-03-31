@@ -15,3 +15,5 @@ mt.start()        # starting the child thread and this is applicable
 
 for i in range(10):
     print("main thread")   # this code is under main thread
+print(type(mt))
+print(id(mt))

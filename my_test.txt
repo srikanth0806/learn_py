@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 i am writing exiting file
+=======
+dkfldlfjl
+i am writing exiting file
+>>>>>>> 994bf78ba5a3f2b690a0dc3f868f6de8f1028188
