@@ -1,6 +1,5 @@
 hai, i am srikanth
 i am from guntur
-<<<<<<< HEAD
-=======
+
 srikanth is a lazy fellow
->>>>>>> 994bf78ba5a3f2b690a0dc3f868f6de8f1028188
+i will try to remove my lazynes 

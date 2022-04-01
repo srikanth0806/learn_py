@@ -19,7 +19,7 @@ class Test:
 	# we should replace next with __next__
 	def __next__(self):
 
-		# Store current value ofx
+		# Store current value of x
 		a = self.x
 
 		# Stop iteration if limit is reached
