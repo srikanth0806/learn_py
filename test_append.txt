@@ -1,6 +1,13 @@
 
+<<<<<<< HEAD
 
 
 
 
   hai,i  am appening to existing 
+=======
+i am appending to existing file
+
+some data is added
+
+>>>>>>> f254ac56c6cff6b2b34f5148213a680a3fc05699
