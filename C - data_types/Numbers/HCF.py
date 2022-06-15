@@ -33,7 +33,7 @@ def h_c_f(a, b):
     return x
 
 
-y = h_c_f(16, 12)
+y = h_c_f(16, 24)
 
 print("the heighest common factor of given number is :", y)
 
