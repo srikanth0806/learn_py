@@ -1,0 +1,130 @@
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> help(modules)
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    help(modules)
+NameError: name 'modules' is not defined
+>>> help(module)
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    help(module)
+NameError: name 'module' is not defined
+>>> help('module')
+No Python documentation found for 'module'.
+Use help() to get the interactive help utility.
+Use help(str) for help on the str class.
+
+>>> help('modules')
+
+Please wait a moment while I gather a list of all available modules...
+
+
+Warning (from warnings module):
+  File "C:\Users\sRIKANTH\AppData\Local\Programs\Python\Python39\lib\site-packages\setuptools\distutils_patch.py", line 25
+    warnings.warn(
+UserWarning: Distutils was imported before Setuptools. This usage is discouraged and may exhibit undesirable behaviors or errors. Please use Setuptools' objects directly or at least import Setuptools first.
+OpenSSL             atexit              idle_test           select
+__future__          attr                idlelib             selectors
+__main__            audioop             idna                selenium
+_abc                autocomplete        imaplib             setuptools
+_aix_support        autocomplete_w      imghdr              shelve
+_ast                autoexpand          imp                 shlex
+_asyncio            base64              importlib           shutil
+_bisect             bdb                 inspect             sidebar
+_blake2             binascii            io                  signal
+_bootlocale         binhex              iomenu              site
+_bootsubprocess     bisect              ipaddress           six
+_bz2                browser             isort               smtpd
+_cffi_backend       builtins            itertools           smtplib
+_codecs             bz2                 json                sndhdr
+_codecs_cn          cProfile            keyword             sniffio
+_codecs_hk          calendar            lazy_object_proxy   socket
+_codecs_iso2022     calltip             lib2to3             socketserver
+_codecs_jp          calltip_w           linecache           sortedcontainers
+_codecs_kr          certifi             locale              sqlite3
+_codecs_tw          cffi                logging             squeezer
+_collections        cgi                 lzma                sre_compile
+_collections_abc    cgitb               macosx              sre_constants
+_compat_pickle      chunk               mailbox             sre_parse
+_compression        cmath               mailcap             ssl
+_contextvars        cmd                 mainmenu            stackviewer
+_csv                code                marshal             stat
+_ctypes             codecontext         math                statistics
+_ctypes_test        codecs              mccabe              statusbar
+_datetime           codeop              mimetypes           string
+_decimal            collections         mmap                stringprep
+_elementtree        colorama            modulefinder        struct
+_functools          colorizer           monkey_patch        subprocess
+_hashlib            colorsys            msilib              sunau
+_heapq              compileall          msvcrt              symbol
+_imp                concurrent          multicall           symtable
+_io                 config              multiprocessing     sys
+_json               config_key          netrc               sysconfig
+_locale             configdialog        nntplib             tabnanny
+_lsprof             configparser        nt                  tarfile
+_lzma               contextlib          ntpath              telnetlib
+_markupbase         contextvars         nturl2path          tempfile
+_md5                copy                numbers             test
+_msi                copyreg             opcode              test_fiel_write
+_multibytecodec     crypt               operator            textview
+_multiprocessing    cryptography        optparse            textwrap
+_opcode             csv                 os                  this
+_operator           ctypes              outcome             threading
+_osx_support        curses              outwin              ti
+_overlapped         dataclasses         parenmatch          time
+_peg_parser         datetime            parser              time_module
+_pickle             dbm                 pathbrowser         timeit
+_py_abc             debugger            pathlib             tkinter
+_pydecimal          debugger_r          pdb                 token
+_pyio               debugobj            percolator          tokenize
+_queue              debugobj_r          pickle              toml
+_random             decimal             pickletools         tooltip
+_sha1               delegator           pip                 trace
+_sha256             difflib             pipes               traceback
+_sha3               dis                 pkg_resources       tracemalloc
+_sha512             distutils           pkgutil             tree
+_signal             doctest             platform            trio
+_sitebuiltins       dynoption           plistlib            trio_websocket
+_socket             easy_install        poplib              tty
+_sqlite3            editor              posixpath           turtle
+_sre                email               pprint              turtledemo
+_ssl                encodings           profile             types
+_stat               ensurepip           pstats              typing
+_statistics         enum                pty                 undo
+_string             errno               py_compile          unicodedata
+_strptime           faulthandler        pyclbr              unittest
+_struct             filecmp             pycparser           urllib
+_symtable           fileinput           pydoc               urllib3
+_testbuffer         filelist            pydoc_data          uu
+_testcapi           fnmatch             pyexpat             uuid
+_testconsole        format              pylint              venv
+_testimportmultiple formatter           pyparse             warnings
+_testmultiphase     fractions           pyshell             wave
+_thread             ftplib              query               weakref
+_threading_local    functools           queue               webbrowser
+_tkinter            gc                  quopri              window
+_tracemalloc        genericpath         r_key_strings       winreg
+_uuid               getopt              random              winsound
+_warnings           getpass             re                  wrapt
+_weakref            gettext             read_file_exe       write
+_weakrefset         glob                redirector          wsgiref
+_winapi             graphlib            replace             wsproto
+_xxsubinterpreters  grep                reprlib             xdrlib
+_zoneinfo           gzip                rlcompleter         xml
+abc                 h11                 rpc                 xmlrpc
+aifc                hashlib             run                 xxsubtype
+antigravity         heapq               runpy               zipapp
+argparse            help                runscript           zipfile
+array               help_about          s                   zipimport
+ast                 history             sched               zlib
+astroid             hmac                scrolledlist        zoneinfo
+async_generator     html                search              zoomheight
+asynchat            http                searchbase          zzdummy
+asyncio             hyperparser         searchengine        
+asyncore            idle                secrets             
+
+Enter any module name to get more help.  Or, type "modules spam" to search
+for modules whose name or summary contain the string "spam".
+
+>>> 
