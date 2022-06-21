@@ -2,7 +2,7 @@
 from abc import ABC, abstractmethod
 
 class Person(ABC):
-
+    
     def get_name(self):
         return "naga"
 
@@ -19,3 +19,6 @@ class Human(Person):
         print("my name is ", new_name)
 
 h = Human()
+h.set_name("sikanth")
+print(h.get_name())
+print(h.hello())
